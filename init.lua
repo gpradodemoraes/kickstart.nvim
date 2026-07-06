@@ -515,7 +515,7 @@ defaults = {
     -- pickers = {}
     extensions = {
       ['ui-select'] = { require('telescope.themes').get_dropdown() },
-      frecency = { show_scores = true },
+      frecency = { show_scores = true, hide_current_buffer = true, },
     },
   }
 
